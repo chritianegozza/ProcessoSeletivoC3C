@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Processo seletivo C3C</title>
+</head>
+<body>
+    <h1>Processo seletivo C3C</h1>
+
+    <p>
+        <label id="primeiraNota">Informe o primeira nota: </label>
+        <input id="nota1" type="number" name="nota1" min="0" max="100" >
+    </p>
+   
+    <p>
+        <label id="segundaNota">Informe o segunda nota: </label>
+        <input id="nota2" type="number" name="nota2" min="0" max="100" >
+    </p>
+   
+    <p>
+        <label>Resultado:</label>
+        <input type="text" name="resultado" id="resultado" disabled />
+    </p> 
+    <button onclick="calcularMedia()">Calcular Média</button><br />
+    
+ 
+
+    <script src="/js/questao03.js"></script>
+</body>
+</html>
